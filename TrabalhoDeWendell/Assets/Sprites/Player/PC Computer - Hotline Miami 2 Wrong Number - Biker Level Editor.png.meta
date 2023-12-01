@@ -1,0 +1,3314 @@
+fileFormatVersion: 2
+guid: 1c3d803c5f14d22418b6ba3277dc0229
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 410
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60aaa54999e193d41bde77f7b3ae3264
+      internalID: -1539890391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 408
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b2744fdae6b3642833a52c725f18f6
+      internalID: -510823304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 414
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dbd39889db04c4db08841f6b2ad499
+      internalID: 1928905719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 397
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cff12db2fc70cf4fb390de03a0d3ab8
+      internalID: -1572295446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 406
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5d659d31ece9646bf58f9e722b94b8
+      internalID: 214520273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 403
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a1d0942e1657548a9d516bc502362a
+      internalID: 1968456352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 421
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86c2cd05e162914fb2366502d05bdcc
+      internalID: 503824725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 419
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb279c3d0001b546837cb2dbbedb755
+      internalID: -1299989898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 404
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee61f5885e67f64ba2b687026a63f2d
+      internalID: -933507078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 404
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67d18fc7de32a144ad70c6483335318
+      internalID: -1926100414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_10
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 404
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb80d4d23cf78454c8a75315a8005a05
+      internalID: 1873439689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 404
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f935e16ec62febf4fa559d6ae5336d97
+      internalID: -1573988494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 404
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e41bba1a2f9d09439d5523e61984758
+      internalID: -913646342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_13
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 404
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2f961e9e21cdb4f89cec5154de2bed
+      internalID: -673069638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 404
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31378228bef188443af80262b8bb1c4b
+      internalID: 834479624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_15
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 393
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607936e4319b4b44fb46361c47e523df
+      internalID: 1349932730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_16
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 393
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43820d97668cf8d43aa017b8257e8f2b
+      internalID: -1021616393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_17
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 393
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c39f91fdbbdf25458dd5fa9fe329ddf
+      internalID: 1596692511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_18
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 393
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851291f1160907d46a7c742ae0eb63d2
+      internalID: 44525449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 393
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5992ad44f5330b43b2d4c0fe3f0f5b2
+      internalID: -1856668778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_20
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 393
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166a49448201d4c47ae0024f68ebf747
+      internalID: -2005741336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 347
+        width: 56
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dab0a4b25007740b63db5bdfb36ac8
+      internalID: -2075857738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 354
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977a005bdd2f30747b686bbac57c4b17
+      internalID: -1719316417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_23
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 354
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f2ebe58e271e046808f8793d5d992f
+      internalID: 133865880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_24
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 357
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25379975d95a5e64cafe02a0524d3bd6
+      internalID: 1136577694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_25
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 354
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3566aadcde1acac49abb01aba574fbfa
+      internalID: 836995877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_26
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 357
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67336674193aa9540a96dba69422fb9a
+      internalID: -1394780050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 357
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44c1c5fa7fcd4841bd947550bbd300d
+      internalID: -1943568647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_28
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 357
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663df9b6c4abe2049b6ea94daf088efa
+      internalID: -1065774307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_29
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 357
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b11854a4a3792478f13fa256c09f06
+      internalID: 1785302847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_30
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 357
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed067af3c299714c837659d9404c9a6
+      internalID: -1475855709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_31
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 313
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac939c751856b034eafafe15c20d864c
+      internalID: -1713454695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_32
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 316
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d787b9120ba4974ba849ddf050db5c4
+      internalID: 696812823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_33
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 313
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bc3efebdcf3784aae71809cd8f17d3
+      internalID: -1092460119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_34
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 311
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8edb3c320aa434b8367c93f516b44d
+      internalID: 555056248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_35
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 318
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecf60c5ce43cbe4faf804f7a4476af4
+      internalID: 1871462273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_36
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 318
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6176f2b23726bc24cb08e1e901339158
+      internalID: 527431585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_37
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 318
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f5e06fa7315af4ea957e426aaebe2c
+      internalID: -1526760675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_38
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 318
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edeb2f4adad23c47a24ba16768d793b
+      internalID: 1499723675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_39
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 278
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa29a04c1092f3469f54dfa1faf90f9
+      internalID: -508531239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_40
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 270
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d35b936d77e3514da3e7d3e0a098d5d
+      internalID: 1114115164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_41
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 275
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca286191d5fc79941aa383c933b04174
+      internalID: -1845642769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_42
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 277
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4918cc76b2a771c4e9ad835c14741c0e
+      internalID: 1664095768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_43
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 269
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a024837e82915b14ab482d72b4e8e449
+      internalID: -289623437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_44
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 282
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ee66e5c6ca0c84a948aab2323784a2
+      internalID: 191925051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_45
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 282
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c573a8a8a07c7b4c84c1ad3e3996d3b
+      internalID: 4880123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_46
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 282
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef8e4c2768edc244a328c0e9564855e
+      internalID: -633671891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_47
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 282
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f450db6dd373eb4da96c42e4072c26c
+      internalID: 1589148344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_48
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 282
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b8b223501667c4abd49ea1959dc486
+      internalID: 2064695183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_49
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 236
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891ba4931c33ed247b5ef71b93ac27bf
+      internalID: 1897530579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_50
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 234
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea861c5ee6f4564a99c26fbeb35df2c
+      internalID: 1113525287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_51
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 234
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b8d12b088ba1a408c5b619e400de6f
+      internalID: -1287433286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_52
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 241
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b41bc517af7e64197421d8bb5fedfb
+      internalID: -192320709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_53
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 241
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626e7a8cb7edd16418d3fad46400a66b
+      internalID: -183265514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_54
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 241
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62fffae9cd2a6c4a873da36ec4900ca
+      internalID: -1736944762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_55
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 241
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5151eb16cdfca043a9d7dc77392f4c1
+      internalID: -1326695440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_56
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 241
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9616ca12dde6b43b287920e2d2364e
+      internalID: -816183471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_57
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 237
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3b28b9b6c0730428e71c03821c3d51
+      internalID: -812747389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_58
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 211
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7620401c3c1ea554d8758afb0118f597
+      internalID: 198183169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_59
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 195
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8a223e33341f54db0f46153852c735
+      internalID: 134449330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_60
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 193
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d0f7bda0194b64080d062f316d329d
+      internalID: 65256057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_61
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 193
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a37345d4f71a048b4cd1e7c5747b28
+      internalID: -1197506795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_62
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 201
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c1a2fb9c6b76b488f4447b2553c812
+      internalID: -2107962708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_63
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e498298a7cd7a43459fa622cfed1f3d1
+      internalID: -733128537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_64
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bfb79f38ab2c942b54536521c6cd7c
+      internalID: -1119125063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_65
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca005b3babd0dd4098362d9a5f0493d
+      internalID: -1957708794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_66
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09e39961dc2b9e44b77448ab5349b00
+      internalID: 1275904785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_67
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 203
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66199c753f74e8d4bbc3481a5d93d5ae
+      internalID: -2077822769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_68
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6790889fc14aab64f823ec6f53fc1bcf
+      internalID: 1919335876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_69
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aefef41b136404b9a8a300bb0313eb
+      internalID: -1179784134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_70
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 168
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bea1140c07b4949926e2ee13ada611
+      internalID: 2105541151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_71
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 169
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d2c77b56c900d44854073be4f7d465
+      internalID: 957497126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_72
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 169
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd550907d096664b8e682162e4c6dc6
+      internalID: -569248464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_73
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 181
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a012c816aab33984bac6c6b1707e1f06
+      internalID: 1025804992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_74
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 181
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d98d02da1d259148bfae374925691a2
+      internalID: -235472250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_75
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 181
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fdad6bf2ca9254f8c756eb05bfd50f
+      internalID: 1355468719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_76
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 181
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0344c52d88ab71f43900e12412bb7caf
+      internalID: -1290957266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_77
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 181
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a544d62d64d3f644b9a7c006df614657
+      internalID: 1566317998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_78
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 154
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad1d59a4d55dea4895d82f634db8ffd
+      internalID: -207536366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_79
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 149
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c625444afd6ff404e9d3c34714fee750
+      internalID: -518347964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_80
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 152
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec40c55a2091a04b81bffec0ccf0b6b
+      internalID: -1571900035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_81
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 149
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0daa15158f059498c8b6d49f4c3579
+      internalID: 1078316309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_82
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 174
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f27a184761374940b852fb50a77faa9
+      internalID: 498498714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_83
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 173
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72ac71073efea94b9cf35ca4d98f83d
+      internalID: 142497667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_84
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 174
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae74c828b1432d44b55382c8d93a7ee
+      internalID: 106499523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_85
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 174
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be859dcbeb5c4342913c3db0f2356d8
+      internalID: -1580646876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_86
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 174
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30283a04cba8174884ea5a4cff7e2f6
+      internalID: 961819574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_87
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 150
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a0029880ba9fc48b45128d1e934044
+      internalID: 1065566803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_88
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 135
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a515e94e37900364d848055e57507601
+      internalID: 1864087701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_89
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 137
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27722739c9b67434baeeb49edd9beca7
+      internalID: -1648192724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_90
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 137
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3affed8f7d60ea842892e9af6910eb12
+      internalID: 543060668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_91
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 149
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9298cdaeaa49a644daa546801e28951c
+      internalID: -840642713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_92
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 149
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92b29aa9e96fdb43a7a106ac1660a91
+      internalID: -625846427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_93
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c981e8c2e001442a1da84108c7e3ff
+      internalID: -960418714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_94
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 135
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5017735ba1e1e784c91f804ed10f79ea
+      internalID: 1146157242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_95
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 140
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6595aca318fa6b74dbbf06855b928ce3
+      internalID: -1094099421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_96
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 140
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cbac8619759064b8c9a98474562854
+      internalID: 1170711400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_97
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 141
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b695e17c70a27b4dacb8c5d2d7a9644
+      internalID: -6403227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_98
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 110
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d057bb2e2e814f4c8f19bb78144da60
+      internalID: -915608006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_99
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 110
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6575412e34ef6a940bd076a59e987a1a
+      internalID: -400482852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_100
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 105
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5414a23fa981d646b708c4784ad69eb
+      internalID: 655273387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_101
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 102
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b7f863f78c732488bb41ad556affcc
+      internalID: -2143249801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_102
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 103
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47722a96d8509be47be439c3468aa025
+      internalID: -1269300578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_103
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 103
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5089faee8171441a4b018ca41feb8d
+      internalID: -239657875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_104
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 116
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20f71c2639152349813cabeb9ea8f02
+      internalID: -1612763314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_105
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 102
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96d43af1966eee4392b1fa52da28526
+      internalID: 1000941517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_106
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 103
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e43a3f1199be7a41a8ad04ca90331d6
+      internalID: 1719944745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_107
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 103
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812993979000aa94f8fb045e83bb10b2
+      internalID: -1466984718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_108
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 105
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4858a4dd3ea194148a9c54945fcdbcde
+      internalID: 89006866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_109
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 87
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcbad877bfa29f479d96b90d28e35b4
+      internalID: 1896485864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_110
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 108
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc59b808984e500409ce5d6b499e9870
+      internalID: 1487164964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_111
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 67
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a994f16dba25e4ca48d2f323126803
+      internalID: 146600841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_112
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 70
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d8318e06ba1c94e8103f2e65d42707
+      internalID: -2039797184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_113
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 67
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e96c6774b617a14289773222af39bc2
+      internalID: -451923150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_114
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 64
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7223fb7a3d7c83d4fb81defe83dfaa51
+      internalID: -583714957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_115
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 69
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5d2b7dfbe18a44f979b39a80c38e78
+      internalID: 1668592641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_116
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 70
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fddb2eb66a954498ba5226ea855e9a
+      internalID: -1676944653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_117
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 83
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9168f1dbea1d734a9520cf9c05c9a48
+      internalID: -1309306245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_118
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 69
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba71412af9a19c4292c34e06db6c3b8
+      internalID: -687240022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_119
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 70
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04169ab130a8404e8726e0cc4beb3a1
+      internalID: -1157669239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_120
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 72
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e531b79fb6c89214bbfa46d6a8867620
+      internalID: 2115629760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_121
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 70
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dff8c0cd2ab4d4dae654502dd057e1
+      internalID: 828674435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_122
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 74
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6fcec6c0614dd459eca4c9d1cfed52
+      internalID: -391651740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_123
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 26
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4997fca092ab43343aa9e85e3a379505
+      internalID: -571249855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_124
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 29
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c90965c792058459f4d594e46d9c36
+      internalID: -1897378147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_125
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 26
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec3bd21d63874a4887c1e8c4d3c3a1f
+      internalID: -748204278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_126
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 23
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252f9ccf840108241b3e9c78e3196a2e
+      internalID: -1277593999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_127
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 36
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa96b775b7d8584ba24fd458e2832ed
+      internalID: -1771424113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_128
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 37
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628d9b3fd20103548bf08d34fa7b22d4
+      internalID: -2017057924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_129
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 49
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c75ab803ea8e345ae7de33e7c6e682
+      internalID: 805877657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_130
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 50
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccd6592859f2f94791aad19105741de
+      internalID: 1581744463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_131
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 36
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ee87d70314e9e4bb0d2dc324f5b008
+      internalID: -1744920155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_132
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 37
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197d874c9fd8aa54cb1c5963346e3bf2
+      internalID: -1850952949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_133
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af5dbc28a654eb459e139d579ca8ccc
+      internalID: 566279758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_134
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 41
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cc9dce85b8e9340ae03360a010f9c4
+      internalID: -1265558043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_135
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 17
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4647a6c200a173048ab60eed9fe5e2b0
+      internalID: 1840342853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_136
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 3
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def598e020e2651458473132b3e41a5c
+      internalID: -234076999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_137
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 5
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f7bb2fa335c9540af4f4497fd89942
+      internalID: -1357790385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_138
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 16
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f857c006ca48b084faad3ce127ecd485
+      internalID: 1424470894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_139
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 17
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d8f8c12c8aa6a43a3c9b5f52627739
+      internalID: -119686588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_140
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b779f55fe37e6204cb41f1cf04888b9d
+      internalID: 272628797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_141
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 4
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab669b03b6818cf4e8366a32115cef7d
+      internalID: 285174366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_142
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 9
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9418803a7df917d4aaec92a2008cff7f
+      internalID: -417969264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_143
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 9
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537e30e54de7fa34cb9bf23de7ebd8aa
+      internalID: -945380345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_109: 1896485864
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_76: -1290957266
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_62: -2107962708
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_82: 498498714
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_91: -840642713
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_95: -1094099421
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_121: 828674435
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_80: -1571900035
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_7: -1299989898
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_56: -816183471
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_6: 503824725
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_66: 1275904785
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_22: -1719316417
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_98: -915608006
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_108: 89006866
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_90: 543060668
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_13: -673069638
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_16: -1021616393
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_2: 1928905719
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_39: -508531239
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_65: -1957708794
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_84: 106499523
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_110: 1487164964
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_63: -733128537
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_134: -1265558043
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_116: -1676944653
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_122: -391651740
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_32: 696812823
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_115: 1668592641
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_37: -1526760675
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_40: 1114115164
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_94: 1146157242
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_59: 134449330
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_130: 1581744463
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_47: 1589148344
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_138: 1424470894
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_140: 272628797
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_36: 527431585
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_79: -518347964
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_119: -1157669239
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_77: 1566317998
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_113: -451923150
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_30: -1475855709
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_8: -933507078
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_0: -1539890391
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_17: 1596692511
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_19: -1856668778
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_141: 285174366
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_18: 44525449
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_70: 2105541151
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_106: 1719944745
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_131: -1744920155
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_41: -1845642769
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_112: -2039797184
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_85: -1580646876
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_117: -1309306245
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_120: 2115629760
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_64: -1119125063
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_129: 805877657
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_48: 2064695183
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_88: 1864087701
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_93: -960418714
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_50: 1113525287
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_75: 1355468719
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_11: -1573988494
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_128: -2017057924
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_107: -1466984718
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_25: 836995877
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_132: -1850952949
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_9: -1926100414
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_126: -1277593999
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_12: -913646342
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_86: 961819574
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_137: -1357790385
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_102: -1269300578
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_55: -1326695440
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_127: -1771424113
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_15: 1349932730
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_4: 214520273
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_142: -417969264
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_29: 1785302847
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_61: -1197506795
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_92: -625846427
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_57: -812747389
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_49: 1897530579
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_21: -2075857738
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_78: -207536366
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_73: 1025804992
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_114: -583714957
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_54: -1736944762
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_71: 957497126
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_133: 566279758
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_136: -234076999
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_3: -1572295446
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_135: 1840342853
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_111: 146600841
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_105: 1000941517
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_53: -183265514
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_81: 1078316309
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_43: -289623437
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_52: -192320709
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_46: -633671891
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_96: 1170711400
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_27: -1943568647
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_100: 655273387
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_20: -2005741336
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_51: -1287433286
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_99: -400482852
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_104: -1612763314
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_97: -6403227
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_118: -687240022
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_1: -510823304
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_5: 1968456352
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_69: -1179784134
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_87: 1065566803
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_23: 133865880
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_68: 1919335876
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_139: -119686588
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_42: 1664095768
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_10: 1873439689
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_123: -571249855
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_38: 1499723675
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_34: 555056248
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_14: 834479624
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_58: 198183169
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_89: -1648192724
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_24: 1136577694
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_143: -945380345
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_101: -2143249801
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_74: -235472250
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_33: -1092460119
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_67: -2077822769
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_124: -1897378147
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_31: -1713454695
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_26: -1394780050
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_44: 191925051
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_60: 65256057
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_28: -1065774307
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_35: 1871462273
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_72: -569248464
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_45: 4880123
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_125: -748204278
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_83: 142497667
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_103: -239657875
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
