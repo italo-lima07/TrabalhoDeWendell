@@ -33,7 +33,7 @@ public class CameraFollowPLayer : MonoBehaviour
         }
         else
         {
-            LookAhead();
+            lookAhead();
         }
     }
 
@@ -48,10 +48,10 @@ public class CameraFollowPLayer : MonoBehaviour
         this.transform.position = newPos;
     }
 
-    void LookAhead()
+    void lookAhead()
     {
         Vector3 camPos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y));
-        camPos.z = -18;
+        camPos.z = -10;
         Vector3 dir = camPos - this.transform.position;
 
         if (player.GetComponent<SpriteRenderer>().isVisible == true)
