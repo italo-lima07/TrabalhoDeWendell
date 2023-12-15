@@ -30,17 +30,10 @@ public class PlayerAnimate : MonoBehaviour
         {
             torso.sprite = walking[counter];
             timer += Time.deltaTime;
-            if (timer <= 0)
+            if (timer >= 0.1f)
             {
-                if (counter < walking.Length - 1)
-                {
-                    counter++;
-                }
-                else
-                {
-                    counter = 0;
-                }
-                timer = 0.1f;
+                counter = (counter + 1) % walking.Length;
+                timer = 0f;
             }
         }
     }
@@ -51,17 +44,10 @@ public class PlayerAnimate : MonoBehaviour
         {
             legs.sprite = legsSpr[legCount];
             legTimer += Time.deltaTime;
-            if (legTimer <= 0)
+            if (legTimer >= 0.05f)
             {
-                if (legCount < legsSpr.Length - 1)
-                {
-                    legCount++;
-                }
-                else
-                {
-                    legCount = 0;
-                }
-                legTimer = 0.05f;
+                legCount = (legCount + 1) % legsSpr.Length;
+                legTimer = 0f;
             }
         }
     }

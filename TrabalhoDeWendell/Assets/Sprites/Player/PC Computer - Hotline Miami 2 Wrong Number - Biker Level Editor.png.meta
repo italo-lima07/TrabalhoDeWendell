@@ -426,9 +426,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 423
-        y: 404
+        y: 410
         width: 17
-        height: 9
+        height: 3
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2857,6 +2857,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_82
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 404
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c47c3428bef0645bdee71be4ae0300
+      internalID: 498498714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2869,11 +2890,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_109: 1896485864
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_72: -569248464
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_76: -1290957266
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_62: -2107962708
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_82: 498498714
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_91: -840642713
-      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_121: 828674435
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_80: -1571900035
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_7: -1299989898
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_56: -816183471
@@ -2882,7 +2903,7 @@ TextureImporter:
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_22: -1719316417
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_98: -915608006
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_103: -239657875
-      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_28: -1065774307
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_35: 1871462273
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_90: 543060668
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_13: -673069638
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_16: -1021616393
@@ -3000,17 +3021,17 @@ TextureImporter:
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_74: -235472250
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_33: -1092460119
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_67: -2077822769
-      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_124: -1897378147
-      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_31: -1713454695
-      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_26: -1394780050
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_44: 191925051
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_124: -1897378147
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_26: -1394780050
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_60: 65256057
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_31: -1713454695
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_121: 828674435
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_28: -1065774307
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_95: -1094099421
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_45: 4880123
-      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_35: 1871462273
-      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_83: 142497667
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_125: -748204278
-      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_60: 65256057
-      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_72: -569248464
+      PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_83: 142497667
       PC Computer - Hotline Miami 2 Wrong Number - Biker Level Editor_108: 89006866
   spritePackingTag: 
   pSDRemoveMatte: 0
