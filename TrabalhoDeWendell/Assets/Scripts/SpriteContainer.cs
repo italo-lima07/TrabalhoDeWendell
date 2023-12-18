@@ -27,26 +27,4 @@ public class SpriteContainer : MonoBehaviour
         return pUnarmedWalk;
     }
 
-    public Sprite[] getWeapon(string weapon)
-    {
-        switch (weapon)
-        {
-            case "Cleaver":
-                return pCleaverAttack;
-                break;
-            case "ThrowingKnives":
-                return pThrowingKnivesAtk;
-                break;
-        }
-    }
-
-    public Sprite[] getWeaponWalk(string weapon)
-    {
-        switch (weapon)
-        {
-            case "Cleaver":
-                return pCleaverWalk;
-                break;
-        }
-    }
 }
