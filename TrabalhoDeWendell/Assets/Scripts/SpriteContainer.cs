@@ -26,5 +26,16 @@ public class SpriteContainer : MonoBehaviour
     {
         return pUnarmedWalk;
     }
+    
+    public Sprite[] getPlayerCleaverWalk()
+    {
+        return pCleaverWalk;
+    }
+    
+    public Sprite[] getPlayerCleaverAttack()
+    {
+        // Return the P Cleaver Attack sprites
+        return pCleaverAttack;
+    }
 
 }
