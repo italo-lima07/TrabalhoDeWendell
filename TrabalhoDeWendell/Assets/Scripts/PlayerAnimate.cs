@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerAnimate : MonoBehaviour
 {
-    Sprite[] walking, attacking, legsSpr, cleaverWalk, cleaverAttack;
+    Sprite[] walking, attacking, legsSpr, cleaverWalk, cleaverAttack, throwingKnives;
     int counter = 0, legCount = 0;
     PlayerMovement pm;
     float timer = 0.051f, legTimer = 0.051f;
@@ -11,7 +11,7 @@ public class PlayerAnimate : MonoBehaviour
     SpriteContainer sc;
     private bool isAttacking = false;
 
-    bool holdingKnife = false; // Add a variable to track if the player is holding the knife
+    public bool holdingKnife = false; // Add a variable to track if the player is holding the knife
 
     void Start()
     {
@@ -20,7 +20,8 @@ public class PlayerAnimate : MonoBehaviour
         walking = sc.getPlayerUnarmedwalk();
         legsSpr = sc.getPlayerLegs();
         cleaverWalk = sc.getPlayerCleaverWalk();
-        cleaverAttack = sc.getPlayerCleaverAttack(); // Add this line to get the Cleaver Attack sprites
+        cleaverAttack = sc.getPlayerCleaverAttack();
+        throwingKnives = sc.getPlayerThrowingKnivesAtk();// Add this line to get the Cleaver Attack sprites
     }
 
     void Update()
@@ -56,6 +57,58 @@ public class PlayerAnimate : MonoBehaviour
         {
             StartCoroutine(PlayCleaverAttackAnimation());
         }
+        
+        else if (Input.GetMouseButton(1) && holdingKnife && !isAttacking)
+        {
+            StartCoroutine(Faquinha());
+        }
+    }
+    
+    IEnumerator Faquinha()
+    {
+        isAttacking = true;
+
+        Sprite[] originalWalking = walking;
+
+        walking = sc.getPlayerThrowingKnivesAtk(); // Corrected method name
+        counter = 0;
+        timer = 0.051f;
+
+        float delay = 0.05f;
+
+        GameObject[] colisorATKObjects = GameObject.FindGameObjectsWithTag("ColisorATK");
+
+        foreach (GameObject obj in colisorATKObjects)
+        {
+            BoxCollider2D collider = obj.GetComponent<BoxCollider2D>();
+            if (collider != null)
+            {
+                collider.enabled = true;
+            }
+        }
+
+        for (int i = 0; i < walking.Length; i++)
+        {
+            torso.sprite = walking[counter];
+            yield return new WaitForSeconds(delay);
+            counter = (counter + 1) % walking.Length;
+        }
+
+        walking = originalWalking;
+        counter = 0;
+        timer = 0.051f;
+        torso.sprite = walking[counter];
+
+        foreach (GameObject obj in colisorATKObjects)
+        {
+            BoxCollider2D collider = obj.GetComponent<BoxCollider2D>();
+            if (collider != null)
+            {
+                collider.enabled = false;
+            }
+        }
+
+        isAttacking = false;
     }
 
     IEnumerator PlayCleaverAttackAnimation()
@@ -73,10 +126,14 @@ public class PlayerAnimate : MonoBehaviour
         // Find and store the references to objects with the tag "ColisorATK"
         GameObject[] colisorATKObjects = GameObject.FindGameObjectsWithTag("ColisorATK");
 
-        // Activate the objects
+        // Activate the BoxCollider component of the objects
         foreach (GameObject obj in colisorATKObjects)
         {
-            obj.SetActive(true);
+            BoxCollider2D collider = obj.GetComponent<BoxCollider2D>();
+            if (collider != null)
+            {
+                collider.enabled = true;
+            }
         }
 
         for (int i = 0; i < cleaverAttack.Length; i++)
@@ -86,16 +143,20 @@ public class PlayerAnimate : MonoBehaviour
             counter = (counter + 1) % walking.Length;
         }
 
-        // Deactivate the objects
-        foreach (GameObject obj in colisorATKObjects)
-        {
-            obj.SetActive(false);
-        }
-
         walking = originalWalking; // Restore the original walking sprites
         counter = 0;
         timer = 0.051f;
         torso.sprite = walking[counter];
+
+        // Deactivate the BoxCollider component of the objects
+        foreach (GameObject obj in colisorATKObjects)
+        {
+            BoxCollider2D collider = obj.GetComponent<BoxCollider2D>();
+            if (collider != null)
+            {
+                collider.enabled = false;
+            }
+        }
 
         isAttacking = false; // Reset the flag to indicate that the attack animation is complete
     }
