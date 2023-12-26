@@ -118,7 +118,22 @@ public class EnemyAIGUN : MonoBehaviour
                 pursuingPlayer = false;
             }
         }
+
+        // Se a distância para o jogador for menor que a distância desejada, pare o inimigo.
+        if (distanceToPlayer < 9f)
+        {
+            // Código para parar o inimigo.
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.velocity = Vector2.zero;
+            }
+            // Pare de ir para a última localização conhecida do jogador.
+            goingToLastLoc = false;
+        }
     }
+
+
 
     void Shoot()
     {
