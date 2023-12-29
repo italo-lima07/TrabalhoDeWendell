@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyAIGUN : MonoBehaviour
 {
-    GameObject player;
+    public GameObject player;
     public bool patrol = true, guard = false, clockwise = false;
     public bool moving = true;
     public bool pursuingPlayer = false, goingToLastLoc = false;
@@ -14,10 +14,14 @@ public class EnemyAIGUN : MonoBehaviour
     RaycastHit2D hit;
     float speed = 2.0f;
     int layerMask = 1 << 8;
+
+    // Variáveis para controle do tiro
     public GameObject bulletPrefab;
-    public Transform spawnPoint;
-    float shootInterval = 2.0f;
-    float shootTimer = 0.0f;
+    public float fireInterval = 1.5f;
+    public int bulletsToFire = 3;
+    private float nextFireTime;
+    public float desiredDistance = 10f;
+    public float bulletSpeed = 5f; // Velocidade da bala
 
     void Start()
     {
@@ -25,64 +29,45 @@ public class EnemyAIGUN : MonoBehaviour
         playerLastPos = this.transform.position;
         rid = this.GetComponent<Rigidbody2D>();
         layerMask = ~layerMask;
+        nextFireTime = Time.time + fireInterval;
     }
 
     void Update()
     {
         movement();
         playerDetect();
-        Shoot();
+        Fire();
     }
 
     void movement()
     {
-        float dist = Vector3.Distance(player.transform.position, this.transform.position);
-        Vector3 dir = player.transform.position - transform.position;
-        hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(dir.x, dir.y), dist, layerMask);
-        Debug.DrawRay(transform.position, dir, Color.red);
-        Vector3 fwt = transform.TransformDirection(Vector3.right);
-        RaycastHit2D hit2 = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(fwt.x, fwt.y), 1.0f, layerMask);
-        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y), new Vector2(fwt.x, fwt.y), Color.cyan);
-
-        if (moving)
-        {
-            transform.Translate(Vector3.right * speed * Time.deltaTime);
-        }
-
-        if (patrol)
-        {
-            Debug.Log("Patrolling normally");
-            speed = 2.0f;
-
-            if (hit2.collider != null)
-            {
-                if (hit2.collider.gameObject.tag == "Wall")
-                {
-                    if (!clockwise)
-                    {
-                        transform.Rotate(0, 0, 90);
-                    }
-                    else
-                    {
-                        transform.Rotate(0, 0, -90);
-                    }
-                }
-            }
-        }
-
         if (pursuingPlayer)
         {
-            Debug.Log("Pursuing Player");
-            speed = 3.51f;
-            rid.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(playerLastPos.y - transform.position.y, playerLastPos.x - transform.position.x) * Mathf.Rad2Deg);
+            // Calcula a direção do jogador
+            Vector3 directionToPlayer = (player.transform.position - transform.position).normalized;
 
-            if (hit.collider != null && hit.collider.gameObject.tag == "Player")
+            // Verifica se a distância entre o inimigo e o jogador é maior que a distância desejada
+            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer > desiredDistance)
             {
-                playerLastPos = player.transform.position;
+                // Move o inimigo na direção do jogador
+                rid.velocity = directionToPlayer * speed;
+            }
+            else
+            {
+                // Para o inimigo se a distância desejada for alcançada
+                rid.velocity = Vector3.zero;
             }
         }
-
-        if (goingToLastLoc)
+        else if (patrol)
+        {
+            // Move o inimigo aleatoriamente pelo mapa
+            float randomX = Random.Range(-1f, 1f);
+            float randomY = Random.Range(-1f, 1f);
+            Vector3 randomDirection = new Vector3(randomX, randomY, 0f).normalized;
+            rid.velocity = randomDirection * speed;
+        }
+        else if (goingToLastLoc)
         {
             Debug.Log("Checking last known player location");
             speed = 3.0f;
@@ -101,7 +86,7 @@ public class EnemyAIGUN : MonoBehaviour
         Vector3 directionToPlayer = player.transform.position - transform.position;
         float distanceToPlayer = directionToPlayer.magnitude;
 
-        if (distanceToPlayer < 9f)
+        if (distanceToPlayer < desiredDistance)
         {
             RaycastHit2D playerHit = Physics2D.Raycast(transform.position, directionToPlayer, distanceToPlayer, layerMask);
 
@@ -118,32 +103,35 @@ public class EnemyAIGUN : MonoBehaviour
                 pursuingPlayer = false;
             }
         }
-
-        // Se a distância para o jogador for menor que a distância desejada, pare o inimigo.
-        if (distanceToPlayer < 9f)
-        {
-            // Código para parar o inimigo.
-            Rigidbody2D rb = GetComponent<Rigidbody2D>();
-            if (rb != null)
-            {
-                rb.velocity = Vector2.zero;
-            }
-            // Pare de ir para a última localização conhecida do jogador.
-            goingToLastLoc = false;
-        }
     }
+    
+    
 
-
-
-    void Shoot()
+    void Fire()
     {
-        if (pursuingPlayer && shootTimer <= 0)
+        if (pursuingPlayer || goingToLastLoc)
         {
-            GameObject bullet = Instantiate(bulletPrefab, spawnPoint.position, spawnPoint.rotation);
-            bullet.GetComponent<Rigidbody2D>().velocity = (player.transform.position - spawnPoint.position).normalized * 10.0f;
-            shootTimer = shootInterval;
-        }
+            // Verifica se está na hora de disparar
+            if (Time.time > nextFireTime)
+            {
+                // Verifica se o inimigo está a uma distância específica do jogador
+                float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+                if (distanceToPlayer <= desiredDistance)
+                {
+                    // Calcula a direção do jogador
+                    Vector3 directionToPlayer = (player.transform.position - transform.position).normalized;
 
-        shootTimer -= Time.deltaTime;
+                    // Dispara as balas
+                    for (int i = 0; i < bulletsToFire; i++)
+                    {
+                        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+                        bullet.GetComponent<Rigidbody2D>().velocity = directionToPlayer * bulletSpeed;
+                    }
+
+                    // Atualiza o próximo tempo de disparo
+                    nextFireTime = Time.time + fireInterval;
+                }
+            }
+        }
     }
 }

@@ -385,6 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f39a3de805ce469c61c673b391b3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 2101541515}
   patrol: 1
   guard: 0
   clockwise: 0
@@ -393,7 +394,10 @@ MonoBehaviour:
   goingToLastLoc: 0
   playerLastPos: {x: 0, y: 0, z: 0}
   bulletPrefab: {fileID: 2003357273}
-  spawnPoint: {fileID: 408922004}
+  fireInterval: 1.5
+  bulletsToFire: 3
+  desiredDistance: 10
+  bulletSpeed: 5
 --- !u!1001 &707918926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -419,11 +423,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6921432165229939453, guid: 6af3ec624ebdea143a86a6cc1917a974, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.86
+      value: 21.93
       objectReference: {fileID: 0}
     - target: {fileID: 6921432165229939453, guid: 6af3ec624ebdea143a86a6cc1917a974, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2426786
+      value: 1.22
       objectReference: {fileID: 0}
     - target: {fileID: 6921432165229939453, guid: 6af3ec624ebdea143a86a6cc1917a974, type: 3}
       propertyPath: m_LocalPosition.z
@@ -640,6 +644,7 @@ GameObject:
   - component: {fileID: 1542802515}
   - component: {fileID: 1542802514}
   - component: {fileID: 1542802513}
+  - component: {fileID: 1542802518}
   m_Layer: 8
   m_Name: enemyatk_0
   m_TagString: Untagged
@@ -713,6 +718,8 @@ MonoBehaviour:
   pursuingPlayer: 0
   goingToLastLoc: 0
   playerLastPos: {x: 0, y: 0, z: 0}
+  attackInterval: 2
+  attackAnimationDuration: 1
 --- !u!212 &1542802516
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -780,6 +787,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1542802518
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542802512}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f4a9fbeed0ec6ce49b72833dc05168eb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1675739539
 GameObject:
   m_ObjectHideFlags: 0
