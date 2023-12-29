@@ -6,6 +6,9 @@ TagManager:
   tags:
   - ColisorATK
   - KnifePickup
+  - Cutscene
+  - ImagemCut
+  - CanvasCutscene
   layers:
   - Default
   - TransparentFX

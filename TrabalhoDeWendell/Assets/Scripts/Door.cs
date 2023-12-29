@@ -2,30 +2,49 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    public float openAngle = 90f; // Ângulo de abertura da porta
-    public float rotationSpeed = 100f; // Velocidade de rotação da porta
+    public Rigidbody2D doorRigidbody;
+    public Vector2 pivotPoint = Vector2.zero;
+    public float openAngle = 90f;
 
-    private bool isOpen = false; // Estado da porta (aberta ou fechada)
-    private Quaternion initialRotation; // Rotação inicial da porta
+    private bool isOpen = false;
+    private float closedRotation;
 
     private void Start()
     {
-        initialRotation = transform.rotation;
+        closedRotation = doorRigidbody.rotation;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !isOpen)
+        if (other.CompareTag("Player"))
         {
-            isOpen = true;
             OpenDoor();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            CloseDoor();
         }
     }
 
     private void OpenDoor()
     {
-        Vector3 targetRotation = transform.eulerAngles + new Vector3(0f, openAngle, 0f);
-        LeanTween.rotate(gameObject, targetRotation, rotationSpeed / 90f)
-            .setEase(LeanTweenType.easeInOutQuad);
+        isOpen = true;
+        doorRigidbody.MoveRotation(Quaternion.Euler(0f, 0f, closedRotation + openAngle));
+    }
+
+    private void CloseDoor()
+    {
+        isOpen = false;
+        doorRigidbody.MoveRotation(Quaternion.Euler(0f, 0f, closedRotation));
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position + (Vector3)pivotPoint, 0.1f);
     }
 }
