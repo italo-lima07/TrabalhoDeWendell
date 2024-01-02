@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 947187e43a3e3f34e997211a1b24e8cc
+guid: 2553d4bd1e73c5143a068a0328ecd40b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_pumgun_reload_strip5_0
+      name: enemygun_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 57
+        width: 33
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cacff70fb5520ea4c84b332b8db40900
-      internalID: 995678995
+      spriteID: d9ff7be0e0f62ef48861a1d26ae1086a
+      internalID: 813899009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pumgun_reload_strip5_1
+      name: enemygun_1
       rect:
         serializedVersion: 2
-        x: 84
+        x: 45
         y: 0
-        width: 43
-        height: 57
+        width: 32
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ded7ee51e4c13946b50b4dff1908519
-      internalID: 234052574
+      spriteID: 6e6fecc93c6632c46989c3f155c5e7aa
+      internalID: -1374147642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pumgun_reload_strip5_2
+      name: enemygun_2
       rect:
         serializedVersion: 2
-        x: 147
+        x: 90
         y: 0
-        width: 43
-        height: 57
+        width: 33
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03978f866d6770c4c981303d0b0d06ce
-      internalID: 468774394
+      spriteID: 0e8507785f9f7d04fabcb74cfff7310d
+      internalID: -513376423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pumgun_reload_strip5_3
+      name: enemygun_3
       rect:
         serializedVersion: 2
-        x: 210
+        x: 135
         y: 0
-        width: 43
-        height: 57
+        width: 34
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65373276ffcc56040b5f04c8cb097b28
-      internalID: -253122491
+      spriteID: 82983ee9742a6a34d98ac552a8e34258
+      internalID: 1846288140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_pumgun_reload_strip5_4
+      name: enemygun_4
       rect:
         serializedVersion: 2
-        x: 273
+        x: 180
         y: 0
-        width: 42
-        height: 46
+        width: 38
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bae6cf9095a560d4e9bdd4a6e1e16274
-      internalID: -1777430786
+      spriteID: e9f3331f24a54784bbc03ff0f3913883
+      internalID: 2003004732
       vertices: []
       indices: 
       edges: []
@@ -243,11 +243,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player_pumgun_reload_strip5_1: 234052574
-      player_pumgun_reload_strip5_4: -1777430786
-      player_pumgun_reload_strip5_2: 468774394
-      player_pumgun_reload_strip5_0: 995678995
-      player_pumgun_reload_strip5_3: -253122491
+      enemygun_4: 2003004732
+      enemygun_3: 1846288140
+      enemygun_0: 813899009
+      enemygun_1: -1374147642
+      enemygun_2: -513376423
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

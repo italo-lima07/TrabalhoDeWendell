@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cf1a277a616bedc4cb6daef4af0025e2
+guid: 81180c8367abf8d429b2ffcfddff4db4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,169 +128,274 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: officer_walk_strip_0
+      name: enemyatk_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 537
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c766a84892dfe14788555e520fb98f4
+      internalID: -960647567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 492
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee0653f116350b4896857cefa29f930
+      internalID: 639162412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 447
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b78051c9fb6a6a42ab69dbebeb44ead
+      internalID: 2112102505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 402
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7a965179ea33e438d90c2015f2ac7f
+      internalID: -1694350429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 357
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71ffad423275e440aed67cff45e2b3e
+      internalID: -838610065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 312
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a981f5d8833644483a7b725e2a2972
+      internalID: 1042702179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_6
       rect:
         serializedVersion: 2
         x: 7
-        y: 3
-        width: 25
-        height: 39
+        y: 267
+        width: 22
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86803be1a4e6a3f49897429c08442671
-      internalID: 1847605879
+      spriteID: 9ad4189fc1c20d147b30b027ad08534d
+      internalID: 245625216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: officer_walk_strip_1
+      name: enemyatk_7
       rect:
         serializedVersion: 2
-        x: 39
-        y: 4
+        x: 8
+        y: 222
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0231058feeb0a445b47a5e65fa06568
+      internalID: 1979201913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 177
         width: 21
-        height: 39
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 468afc0dc5251914291937432f5b17f7
-      internalID: 516441856
+      spriteID: dc540e30c6d0c4d41b86db468c9f012f
+      internalID: -2001279752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: officer_walk_strip_2
+      name: enemyatk_9
       rect:
         serializedVersion: 2
-        x: 62
+        x: 9
+        y: 129
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4177f63d678129468fb57251d318a88
+      internalID: -1439474213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 85
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2f4860bb90f3b438de97b33bad9c58
+      internalID: 1652490383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0689940467a7445accb20804fb19a2
+      internalID: -1420663586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyatk_12
+      rect:
+        serializedVersion: 2
+        x: 9
         y: 0
-        width: 34
-        height: 43
+        width: 33
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1279b6de3d975484d9db166c23e01a63
-      internalID: 1389342093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: officer_walk_strip_3
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 0
-        width: 25
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72fbb981dedd50b439b9ef78e8fee777
-      internalID: 348915367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: officer_walk_strip_4
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 4
-        width: 25
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86882afbd208ee34fbdc177a1bb32723
-      internalID: 1758519607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: officer_walk_strip_5
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 2
-        width: 21
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea7cee691f63bb444b4300ae8e58e153
-      internalID: -1006126357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: officer_walk_strip_6
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 2
-        width: 34
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c8b35ecb2449ec40adbb75946feff02
-      internalID: -1101988963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: officer_walk_strip_7
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 2
-        width: 25
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9c3b2f0f03b1924f97307e2bfc3447d
-      internalID: -1247381351
+      spriteID: f2bd1f65cbf42e54baf3f2387838327a
+      internalID: 1127929631
       vertices: []
       indices: 
       edges: []
@@ -306,14 +411,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      officer_walk_strip_2: 1389342093
-      officer_walk_strip_6: -1101988963
-      officer_walk_strip_1: 516441856
-      officer_walk_strip_3: 348915367
-      officer_walk_strip_4: 1758519607
-      officer_walk_strip_5: -1006126357
-      officer_walk_strip_7: -1247381351
-      officer_walk_strip_0: 1847605879
+      enemyatk_8: -2001279752
+      enemyatk_10: 1652490383
+      enemyatk_5: 1042702179
+      enemyatk_3: -1694350429
+      enemyatk_12: 1127929631
+      enemyatk_0: -960647567
+      enemyatk_1: 639162412
+      enemyatk_11: -1420663586
+      enemyatk_2: 2112102505
+      enemyatk_7: 1979201913
+      enemyatk_4: -838610065
+      enemyatk_9: -1439474213
+      enemyatk_6: 245625216
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
