@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public float speed = 3f;
     public float detectionRadius = 5f;
+    public float detectionAngle = 45f; // Adicione esta linha
     public int vida = 3;
     private bool isdead = false;
     private int dano = 1;
@@ -22,11 +23,14 @@ public class Enemy : MonoBehaviour
     public float meleeRange = 0.08f;
     private float meleeCooldown = 1f;
     private bool canAttack = true;
+    
+    private Animator animator;
 
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -53,9 +57,10 @@ public class Enemy : MonoBehaviour
 
     void CheckPlayerDistance()
     {
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        Vector2 directionToPlayer = player.position - transform.position;
+        float angle = Vector2.Angle(transform.right, directionToPlayer);
 
-        isChasing = distanceToPlayer < detectionRadius;
+        isChasing = directionToPlayer.magnitude < detectionRadius && angle < detectionAngle / 2;
     }
     
     void Patrol()
@@ -128,15 +133,7 @@ public class Enemy : MonoBehaviour
     {
         speed = 0f;
         canAttack = false;
-        yield return new WaitForSeconds(0.5f);
-        if (Vector2.Distance(transform.position, player.position) > meleeRange)
-        {
-            StopCoroutine(MeleeAttack());
-        }
-        else
-        {
-            player.GetComponent<PlayerLife>().TakeDamage(dano);
-        }
+        animator.SetInteger("transition" ,1); // Aciona a animação de ataque
         yield return new WaitForSeconds(meleeCooldown);
         canAttack = true;
         speed = 2f;
