@@ -45,7 +45,11 @@ public class TacarFaca : MonoBehaviour
         // Apply a force to throw the knife towards the mouse
         knifeRigidbody.AddForce(throwDirection * throwForce);
 
-        // Destroy the knife after the specified lifetime or when it hits an enemy or scenery
+        // Attach a script to the knife to detect collisions with "Cenario" tagged objects
+        KnifeCollisionDetection collisionDetection = knife.AddComponent<KnifeCollisionDetection>();
+        collisionDetection.knifeOwner = gameObject;
+
+        // Destroy the knife after the specified lifetime
         Destroy(knife, knifeLifetime);
     }
 
@@ -55,6 +59,24 @@ public class TacarFaca : MonoBehaviour
         {
             knifeCount++; // Increment the knife count
             Destroy(other.gameObject); // Destroy the knife pickup
+        }
+    }
+}
+
+public class KnifeCollisionDetection : MonoBehaviour
+{
+    public GameObject knifeOwner;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Cenario")) // Check if the knife collided with an object tagged as "Cenario"
+        {
+            if (knifeOwner != null)
+            {
+                Destroy(knifeOwner); // Destroy the knife owner (e.g., the player)
+            }
+
+            Destroy(gameObject); // Destroy the knife
         }
     }
 }

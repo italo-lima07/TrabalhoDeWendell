@@ -9,6 +9,7 @@ TagManager:
   - Cutscene
   - ImagemCut
   - CanvasCutscene
+  - Cenario
   layers:
   - Default
   - TransparentFX
