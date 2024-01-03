@@ -104,13 +104,13 @@ public class Enemy : MonoBehaviour
             isdead = true;
             float angle = UnityEngine.Random.Range(0f, 360f);
             Instantiate(deathSprite, transform.position, Quaternion.Euler(0f, 0f, angle));
-            Destroy(gameObject, 1f);
+            Destroy(gameObject);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == 8 || other.gameObject.tag == "Flecha")
+        if (other.gameObject.layer == 8 || other.gameObject.tag == "Knive")
         {
             vida--;
             Vector2 adjustPositionDirection = (transform.position - other.transform.position).normalized;
@@ -125,7 +125,7 @@ public class Enemy : MonoBehaviour
 
         if (other.gameObject.layer == 8 || other.gameObject.tag == "ColisorATK")
         {
-            die();
+            vida = 0;
         }
     }
 

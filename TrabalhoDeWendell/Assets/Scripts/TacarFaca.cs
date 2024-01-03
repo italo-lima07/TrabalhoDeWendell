@@ -78,5 +78,10 @@ public class KnifeCollisionDetection : MonoBehaviour
         {
             Destroy(gameObject); // Destroi a faca
         }
+
+        if (collision.gameObject.CompareTag("inimigo"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
