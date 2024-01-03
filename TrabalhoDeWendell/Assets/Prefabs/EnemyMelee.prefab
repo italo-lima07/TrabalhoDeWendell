@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6189739877921605425}
   - component: {fileID: 6189739877921605426}
-  - component: {fileID: 6189739877921605427}
   - component: {fileID: 6189739877921605439}
   - component: {fileID: 6189739877921605424}
   - component: {fileID: 6189739877921605438}
@@ -88,28 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6189739877921605427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6189739877921605428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cff005a734ebb7e45925db8c15c66a6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
-  detectionRadius: 5
-  vida: 1
-  knockbackForce: 10
-  patrolPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  patrolSpeed: 8
-  meleeRange: 1.5
 --- !u!61 &6189739877921605439
 BoxCollider2D:
   m_ObjectHideFlags: 0

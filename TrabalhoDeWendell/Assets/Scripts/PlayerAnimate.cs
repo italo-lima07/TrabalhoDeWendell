@@ -76,17 +76,6 @@ public class PlayerAnimate : MonoBehaviour
 
         float delay = 0.05f;
 
-        GameObject[] colisorATKObjects = GameObject.FindGameObjectsWithTag("ColisorATK");
-
-        foreach (GameObject obj in colisorATKObjects)
-        {
-            BoxCollider2D collider = obj.GetComponent<BoxCollider2D>();
-            if (collider != null)
-            {
-                collider.enabled = true;
-            }
-        }
-
         for (int i = 0; i < walking.Length; i++)
         {
             torso.sprite = walking[counter];
@@ -98,15 +87,6 @@ public class PlayerAnimate : MonoBehaviour
         counter = 0;
         timer = 0.051f;
         torso.sprite = walking[counter];
-
-        foreach (GameObject obj in colisorATKObjects)
-        {
-            BoxCollider2D collider = obj.GetComponent<BoxCollider2D>();
-            if (collider != null)
-            {
-                collider.enabled = false;
-            }
-        }
 
         isAttacking = false;
     }

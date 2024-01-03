@@ -6,12 +6,13 @@ public class Enemy : MonoBehaviour
 {
     public float speed = 3f;
     public float detectionRadius = 5f;
-    public float detectionAngle = 45f; // Adicione esta linha
+    public float detectionAngle = 45f;
     public int vida = 3;
     private bool isdead = false;
     private int dano = 1;
     public float knockbackForce = 10f;
-
+    public GameObject deathSprite;
+    
     private Transform player;
     private bool isChasing = false;
     private Rigidbody2D rig;
@@ -21,7 +22,7 @@ public class Enemy : MonoBehaviour
     public float patrolSpeed = 2f;
     
     public float meleeRange = 0.08f;
-    private float meleeCooldown = 1f;
+    private float meleeCooldown = 0f;
     private bool canAttack = true;
     
     private Animator animator;
@@ -35,7 +36,6 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        die();
         if (!isdead)
         {
             CheckPlayerDistance();
@@ -102,13 +102,15 @@ public class Enemy : MonoBehaviour
         if (vida <= 0)
         {
             isdead = true;
+            float angle = UnityEngine.Random.Range(0f, 360f);
+            Instantiate(deathSprite, transform.position, Quaternion.Euler(0f, 0f, angle));
             Destroy(gameObject, 1f);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == 8)
+        if (other.gameObject.layer == 8 || other.gameObject.tag == "Flecha")
         {
             vida--;
             Vector2 adjustPositionDirection = (transform.position - other.transform.position).normalized;
@@ -117,27 +119,36 @@ public class Enemy : MonoBehaviour
             {
                 rig.velocity = Vector2.zero;
             }
+
+            die(); // Call the die method when the enemy is hit
         }
-        if (other.gameObject.tag == "Flecha")
+
+        if (other.gameObject.layer == 8 || other.gameObject.tag == "ColisorATK")
         {
-            vida--;
-            Vector2 adjustPositionDirection = (transform.position - other.transform.position).normalized;
-            transform.position = new Vector2(transform.position.x + adjustPositionDirection.x * 1f, transform.position.y + adjustPositionDirection.y * 1f);
-            if (rig != null)
-            {
-                rig.velocity = Vector2.zero;
-            }
+            die();
         }
     }
+
     IEnumerator MeleeAttack()
     {
         speed = 0f;
         canAttack = false;
-        animator.SetInteger("transition" ,1); // Aciona a animação de ataque
+        animator.SetInteger("transition", 1);
+        yield return new WaitForSeconds(0.2f);
+        if (Vector2.Distance(transform.position, player.position) > meleeRange)
+        {
+            StopCoroutine(MeleeAttack());
+        }
+        else
+        {
+            player.GetComponent<PlayerLife>().TakeDamage(dano);
+        }
         yield return new WaitForSeconds(meleeCooldown);
         canAttack = true;
         speed = 2f;
+        animator.SetInteger("transition", 0); // Reset the transition parameter to 0
     }
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;

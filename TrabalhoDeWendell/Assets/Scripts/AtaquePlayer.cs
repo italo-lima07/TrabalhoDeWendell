@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class AtaquePlayer : MonoBehaviour
 {
+    private bool isActive = false;
+
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Verifica se o botão esquerdo do mouse foi pressionado
+        if (Input.GetMouseButtonDown(0))
         {
-            gameObject.SetActive(true); // Ativa o objeto
-        }
-        else if (Input.GetMouseButtonUp(0)) // Verifica se o botão esquerdo do mouse foi solto
-        {
-            gameObject.SetActive(false); // Desativa o objeto
+            isActive = !isActive; // Inverte o estado atual
+            gameObject.SetActive(isActive); // Define o estado do objeto de acordo com isActive
         }
     }
 }
