@@ -4,19 +4,33 @@ public class PlayerLife : MonoBehaviour
 {
     public int life = 1; // Vida do jogador
     public GameObject deathSpritePrefab; // Prefab do sprite de morte
+    private AudioSource audioSource; // Referência ao componente AudioSource
+    private Rigidbody2D rig;
+
+    public GameManagerScript gameManager;
+    private bool isDead;
+
+    private void Start()
+    {
+        rig = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>(); // Obtém a referência ao componente AudioSource
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
+            rig.velocity = new Vector2(rig.velocity.x, 0f);
             TakeDamage(1); // O jogador perde 1 de vida ao colidir com um objeto inimigo
         }
     }
 
     private void Update()
     {
-        if (life <= 0) // Verifica se a vida do jogador é zero ou menos
+        if (life <= 0 && !isDead) // Verifica se a vida do jogador é zero ou menos
         {
+            isDead = true;
+            gameManager.gameOver();
             Die(); // Chama a função para matar o jogador
         }
     }

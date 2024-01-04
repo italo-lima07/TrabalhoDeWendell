@@ -12,6 +12,10 @@ public class Enemy : MonoBehaviour
     public float knockbackForce = 10f;
     public GameObject deathSprite;
     
+    public AudioClip attackSound; 
+    private AudioSource audioSource;
+    
+    
     private Transform player;
     private bool isChasing = false;
     private Rigidbody2D rig;
@@ -31,6 +35,11 @@ public class Enemy : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
     void Update()
@@ -138,14 +147,17 @@ public class Enemy : MonoBehaviour
         {
             StopCoroutine(MeleeAttack());
         }
+        
         else
         {
             player.GetComponent<PlayerLife>().TakeDamage(dano);
         }
+        
         yield return new WaitForSeconds(meleeCooldown);
         canAttack = true;
         speed = 2f;
-        animator.SetInteger("transition", 0); // Reset the transition parameter to 0
+        animator.SetInteger("transition", 0);
+        audioSource.PlayOneShot(attackSound);
     }
 
     void OnDrawGizmosSelected()

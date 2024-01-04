@@ -2,29 +2,29 @@ using UnityEngine;
 
 public class TacarFaca : MonoBehaviour
 {
-    public GameObject knifePrefab; // Prefab da faca
-    public float throwForce = 500f; // Força do lançamento da faca
-    public float knifeLifetime = 3f; // Tempo de vida da faca em segundos
-    public float throwInterval = 0.5f; // Intervalo entre lançamentos de faca em segundos
-    public int knifeCount = 0; // Quantidade de facas que o jogador tem
+    public GameObject knifePrefab; 
+    public float throwForce = 500f; 
+    public float knifeLifetime = 3f; 
+    public float throwInterval = 0.5f; 
+    public int knifeCount = 0;
 
-    private PlayerAnimate playerAnimate; // Referência ao script PlayerAnimate
-    private float timer; // Timer para controlar o intervalo de lançamento
+    private PlayerAnimate playerAnimate; 
+    private float timer; 
 
     private void Start()
     {
-        playerAnimate = GetComponent<PlayerAnimate>(); // Obtém o componente PlayerAnimate
+        playerAnimate = GetComponent<PlayerAnimate>(); 
     }
 
     private void Update()
     {
-        timer += Time.deltaTime; // Incrementa o timer com o tempo decorrido desde o último quadro
+        timer += Time.deltaTime; 
 
-        if (Input.GetMouseButton(1) && playerAnimate.holdingKnife && timer >= throwInterval && knifeCount > 0) // Verifica se o botão direito do mouse está pressionado, o jogador está segurando a faca, o tempo de intervalo foi atingido e o jogador tem pelo menos uma faca
+        if (Input.GetMouseButton(1) && playerAnimate.holdingKnife && timer >= throwInterval && knifeCount > 0) 
         {
-            ThrowKnife(); // Chama a função para lançar a faca
-            timer = 0f; // Reseta o timer
-            knifeCount--; // Decrementa o contador de facas
+            ThrowKnife(); 
+            timer = 0f; 
+            knifeCount--; 
         }
     }
 
@@ -33,35 +33,35 @@ public class TacarFaca : MonoBehaviour
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 throwDirection = (mousePosition - transform.position).normalized;
 
-        // Calcula o ângulo de rotação com base na direção do lançamento
+        
         float angle = Mathf.Atan2(throwDirection.y, throwDirection.x) * Mathf.Rad2Deg;
 
-        // Instancia a faca com a rotação correta
+        
         GameObject knife = Instantiate(knifePrefab, transform.position, Quaternion.Euler(0f, 0f, angle));
 
-        // Obtém o componente Rigidbody2D da faca
+        
         Rigidbody2D knifeRigidbody = knife.GetComponent<Rigidbody2D>();
 
-        // Aplica uma força para lançar a faca em direção ao mouse
+        
         knifeRigidbody.AddForce(throwDirection * throwForce);
 
-        // Define a faca como trigger (sensor)
+        
         knife.GetComponent<Collider2D>().isTrigger = true;
 
-        // Anexa um script à faca para detectar colisões com objetos marcados como "Cenario"
+        
         KnifeCollisionDetection collisionDetection = knife.AddComponent<KnifeCollisionDetection>();
         collisionDetection.knifeOwner = gameObject;
 
-        // Destroi a faca após o tempo de vida especificado
+        
         Destroy(knife, knifeLifetime);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("KnifePickup")) // Verifica se o jogador colidiu com uma faca
+        if (other.gameObject.CompareTag("KnifePickup")) 
         {
-            knifeCount++; // Incrementa o contador de facas
-            Destroy(other.gameObject); // Destroi a faca
+            knifeCount++; 
+            Destroy(other.gameObject); 
         }
     }
 }

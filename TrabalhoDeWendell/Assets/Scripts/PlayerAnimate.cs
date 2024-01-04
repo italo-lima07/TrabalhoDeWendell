@@ -10,8 +10,9 @@ public class PlayerAnimate : MonoBehaviour
     public SpriteRenderer torso, legs;
     SpriteContainer sc;
     private bool isAttacking = false;
+    public AudioSource attackSound;
 
-    public bool holdingKnife = false; // Add a variable to track if the player is holding the knife
+    public bool holdingKnife = false; 
 
     void Start()
     {
@@ -21,7 +22,8 @@ public class PlayerAnimate : MonoBehaviour
         legsSpr = sc.getPlayerLegs();
         cleaverWalk = sc.getPlayerCleaverWalk();
         cleaverAttack = sc.getPlayerCleaverAttack();
-        throwingKnives = sc.getPlayerThrowingKnivesAtk();// Add this line to get the Cleaver Attack sprites
+        throwingKnives = sc.getPlayerThrowingKnivesAtk();
+        attackSound = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -33,7 +35,7 @@ public class PlayerAnimate : MonoBehaviour
 
     void checkInput()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && !isAttacking) // Check if "Z" is pressed and not currently attacking
+        if (Input.GetKeyDown(KeyCode.Z) && !isAttacking) 
         {
             if (holdingKnife)
             {
@@ -41,7 +43,7 @@ public class PlayerAnimate : MonoBehaviour
                 counter = 0;
                 timer = 0.051f;
                 torso.sprite = walking[counter];
-                holdingKnife = false; // Set holdingKnife to false since the player is no longer holding the knife
+                holdingKnife = false; 
             }
             else
             {
@@ -49,13 +51,14 @@ public class PlayerAnimate : MonoBehaviour
                 counter = 0;
                 timer = 0.051f;
                 torso.sprite = walking[counter];
-                holdingKnife = true; // Set holdingKnife to true since the player is now holding the knife
+                holdingKnife = true; 
             }
         }
 
         if (Input.GetMouseButton(0) && holdingKnife && !isAttacking)
         {
             StartCoroutine(PlayCleaverAttackAnimation(0.4f));
+            PlayAttackSound();
         }
         
         else if (Input.GetMouseButton(1) && holdingKnife && !isAttacking)
@@ -70,7 +73,7 @@ public class PlayerAnimate : MonoBehaviour
 
         Sprite[] originalWalking = walking;
 
-        walking = sc.getPlayerThrowingKnivesAtk(); // Corrected method name
+        walking = sc.getPlayerThrowingKnivesAtk(); 
         counter = 0;
         timer = 0.051f;
 
@@ -93,28 +96,28 @@ public class PlayerAnimate : MonoBehaviour
 
     IEnumerator PlayCleaverAttackAnimation(float colliderActiveTime)
     {
-        isAttacking = true; // Set the flag to indicate that the attack animation is in progress
+        isAttacking = true; 
 
-        Sprite[] originalWalking = walking; // Store the original walking sprites
+        Sprite[] originalWalking = walking; 
 
-        walking = cleaverAttack; // Set the walking sprites to cleaverAttack
+        walking = cleaverAttack; 
         counter = 0;
         timer = 0.051f;
 
-        float delay = 0.05f; // Adjust the delay between each sprite (lower value for faster animation)
+        float delay = 0.05f; 
 
-        // Find and store the references to objects with the tag "ColisorATK"
+        
         GameObject[] colisorATKObjects = GameObject.FindGameObjectsWithTag("ColisorATK");
 
-        // Activate the BoxCollider component of the objects
+        
         foreach (GameObject obj in colisorATKObjects)
         {
             BoxCollider2D collider = obj.GetComponent<BoxCollider2D>();
             if (collider != null)
             {
                 collider.enabled = true;
-                yield return new WaitForSeconds(0f); // Aguardar o tempo especificado
-                collider.enabled = false; // Desativar o colisor após o tempo especificado
+                yield return new WaitForSeconds(0f); 
+                collider.enabled = false; 
             }
         }
 
@@ -125,12 +128,12 @@ public class PlayerAnimate : MonoBehaviour
             counter = (counter + 1) % walking.Length;
         }
 
-        walking = originalWalking; // Restore the original walking sprites
+        walking = originalWalking; 
         counter = 0;
         timer = 0.051f;
         torso.sprite = walking[counter];
 
-        // Deactivate the BoxCollider component of the objects
+        
         foreach (GameObject obj in colisorATKObjects)
         {
             BoxCollider2D collider = obj.GetComponent<BoxCollider2D>();
@@ -140,11 +143,20 @@ public class PlayerAnimate : MonoBehaviour
             }
         }
 
-        isAttacking = false; // Reset the flag to indicate that the attack animation is complete
+        isAttacking = false; 
     }
+    
+    void PlayAttackSound()
+    {
+        if (attackSound != null) 
+        {
+            attackSound.Play(); 
+        }
+    }
+    
     void animateTorso()
     {
-        if (pm.moving == true && walking != cleaverAttack) // Only animate torso if not in Cleaver Attack animation
+        if (pm.moving == true && walking != cleaverAttack) 
         {
             torso.sprite = walking[counter];
             timer += Time.deltaTime;
