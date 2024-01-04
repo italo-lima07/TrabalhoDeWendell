@@ -10,6 +10,8 @@ TagManager:
   - ImagemCut
   - CanvasCutscene
   - Cenario
+  - bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
