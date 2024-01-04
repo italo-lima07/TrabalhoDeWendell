@@ -1,21 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class CarregarCena : MonoBehaviour
+public class AtaquePlayer : MonoBehaviour
 {
+    private bool isActive = false;
 
-    public string cenaParaCarregar;
-    // Start is called before the first frame update
-    void Start()
-    {
-        SceneManager.LoadScene(cenaParaCarregar);
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            isActive = !isActive; // Inverte o estado atual
+            gameObject.SetActive(isActive); // Define o estado do objeto de acordo com isActive
+        }
     }
 }

@@ -1,7 +1,8 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class EnemyShooter : MonoBehaviour
 {
     public float speed = 3f;
     public float detectionRadius = 5f;
@@ -12,6 +13,13 @@ public class Enemy : MonoBehaviour
     public float knockbackForce = 10f;
     public GameObject deathSprite;
     
+    public GameObject bulletPrefab;
+    public float fireRate = 1f;
+    public float bulletSpeed = 5f;
+    public float shootingDistance = 5f;
+
+    private bool isShooting = false;
+    
     private Transform player;
     private bool isChasing = false;
     private Rigidbody2D rig;
@@ -20,10 +28,6 @@ public class Enemy : MonoBehaviour
     private int currentPatrolIndex = 0;
     public float patrolSpeed = 2f;
     
-    public float meleeRange = 0.08f;
-    private float meleeCooldown = 0f;
-    private bool canAttack = true;
-    
     private Animator animator;
 
     void Start()
@@ -31,6 +35,7 @@ public class Enemy : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>();
+        StartCoroutine(ShootRoutine());
     }
 
     void Update()
@@ -42,10 +47,6 @@ public class Enemy : MonoBehaviour
             if (isChasing)
             {
                 ChasePlayer();
-                if (canAttack && Vector2.Distance(transform.position, player.position) < meleeRange)
-                {
-                    StartCoroutine(MeleeAttack());
-                }
             }
             else
             {
@@ -85,14 +86,15 @@ public class Enemy : MonoBehaviour
         if (rig != null)
         {
             Vector2 direction = (player.position - transform.position).normalized;
-            rig.velocity = direction * speed;
-
-            // Verifica se o jogador está no campo de visão do inimigo
-            if (Vector2.Distance(transform.position, player.position) < detectionRadius)
+            if (Vector2.Distance(transform.position, player.position) > shootingDistance)
             {
-                // Rotaciona na direção do jogador
-                transform.right = direction;
+                rig.velocity = direction * speed;
             }
+            else
+            {
+                rig.velocity = Vector2.zero; // Para de se mover quando estiver na distância de tiro
+            }
+            transform.right = direction;
         }
     }
 
@@ -127,33 +129,43 @@ public class Enemy : MonoBehaviour
             vida = 0;
         }
     }
-
-    IEnumerator MeleeAttack()
+    
+    IEnumerator ShootRoutine()
     {
-        speed = 0f;
-        canAttack = false;
-        animator.SetInteger("transition", 1);
-        yield return new WaitForSeconds(0.2f);
-        if (Vector2.Distance(transform.position, player.position) > meleeRange)
+        while (true)
         {
-            StopCoroutine(MeleeAttack());
+            if (isChasing)
+            {
+                Shoot();
+            }
+            yield return new WaitForSeconds(1f / fireRate);
         }
-        else
+    }
+
+    void Shoot()
+    {
+        if (!isShooting)
         {
-            player.GetComponent<PlayerLife>().TakeDamage(dano);
+            isShooting = true;
+            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+            Vector2 direction = (player.position - transform.position).normalized;
+            bullet.transform.right = direction; // Aponta a bala na direção correta
+            Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
+            bulletRb.velocity = direction * bulletSpeed;
+            StartCoroutine(DestroyBulletAfterTime(bullet));
         }
-        yield return new WaitForSeconds(meleeCooldown);
-        canAttack = true;
-        speed = 2f;
-        animator.SetInteger("transition", 0); // Reset the transition parameter to 0
+    }
+
+    IEnumerator DestroyBulletAfterTime(GameObject bullet)
+    {
+        yield return new WaitForSeconds(2f); // Altere o tempo conforme necessário
+        Destroy(bullet);
+        isShooting = false;
     }
 
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
-
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, meleeRange);
     }
 }

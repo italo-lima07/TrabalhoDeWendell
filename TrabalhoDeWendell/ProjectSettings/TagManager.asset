@@ -12,6 +12,9 @@ TagManager:
   - Cenario
   - bullet
   - Enemy
+  - inimigo
+  - Knive
+  - inimigo2
   layers:
   - Default
   - TransparentFX
@@ -20,9 +23,9 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
   - Player
+  - Matar
+  - CU
   - 
   - 
   - 

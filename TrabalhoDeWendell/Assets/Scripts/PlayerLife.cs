@@ -5,9 +5,9 @@ public class PlayerLife : MonoBehaviour
     public int life = 1; // Vida do jogador
     public GameObject deathSpritePrefab; // Prefab do sprite de morte
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(1); // O jogador perde 1 de vida ao colidir com um objeto inimigo
         }
