@@ -51,6 +51,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.414
       objectReference: {fileID: 0}
+    - target: {fileID: 6189739877921605426, guid: 9c9b1b687fefd6346b25b88bcf59dbe2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6189739877921605428, guid: 9c9b1b687fefd6346b25b88bcf59dbe2, type: 3}
       propertyPath: m_Name
       value: EnemyMelee
@@ -81,7 +85,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   detectionRadius: 6.49
-  detectionAngle: 100
+  detectionAngle: 140.8
   vida: 1
   knockbackForce: 0
   deathSprite: {fileID: 6118885193988817140, guid: c1527393841b781498c54650715e290a, type: 3}

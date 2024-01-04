@@ -55,7 +55,7 @@ public class PlayerAnimate : MonoBehaviour
 
         if (Input.GetMouseButton(0) && holdingKnife && !isAttacking)
         {
-            StartCoroutine(PlayCleaverAttackAnimation(0.0000001f));
+            StartCoroutine(PlayCleaverAttackAnimation(0.4f));
         }
         
         else if (Input.GetMouseButton(1) && holdingKnife && !isAttacking)
@@ -113,7 +113,7 @@ public class PlayerAnimate : MonoBehaviour
             if (collider != null)
             {
                 collider.enabled = true;
-                yield return new WaitForSeconds(0.1f); // Aguardar o tempo especificado
+                yield return new WaitForSeconds(0f); // Aguardar o tempo especificado
                 collider.enabled = false; // Desativar o colisor após o tempo especificado
             }
         }

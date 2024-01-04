@@ -17,24 +17,12 @@ public class CameraFollowPLayer : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            followPlayer = false;
-            pm.SetMoving(false);
-        }
-        else
-        {
-            followPlayer = true;
-        }
+        CanFollowPlayer();
+    }
 
-        if (followPlayer == true)
-        {
-            CanFollowPlayer();
-        }
-        else
-        {
-            lookAhead();
-        }
+    void CanFollowPlayer()
+    {
+        transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
     }
 
     public void SetFollowPlayer(bool val)
@@ -42,11 +30,7 @@ public class CameraFollowPLayer : MonoBehaviour
         followPlayer = val;
     }
 
-    void CanFollowPlayer()
-    {
-        Vector3 newPos = new Vector3(player.transform.position.x, player.transform.position.y, this.transform.position.z);
-        this.transform.position = newPos;
-    }
+    
 
     void lookAhead()
     {
